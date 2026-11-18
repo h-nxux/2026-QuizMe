@@ -432,14 +432,13 @@ img { display: block; }
   align-items: flex-start;
   text-align: left;
   border: 1px solid var(--line);
-  border-top: 5px solid var(--deck, var(--line));
   transition: transform .1s;
 }
 .deck-mini:active { transform: scale(.97); }
 .deck-mini-emoji { font-size: 2rem; line-height: 1; margin-bottom: auto; }
 .deck-mini-title { font-weight: 800; font-size: .95rem; line-height: 1.25; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
 .deck-mini-meta { font-size: .76rem; color: var(--text-2); font-weight: 600; margin-top: 2px; }
-.deck-mini-add { background: transparent; border: 2px dashed var(--line-strong); border-top-width: 2px; align-items: center; justify-content: center; color: var(--text-3); gap: 4px; }
+.deck-mini-add { background: transparent; border: 2px dashed var(--line-strong); align-items: center; justify-content: center; color: var(--text-3); gap: 4px; }
 .deck-mini-add .deck-mini-title { color: var(--text-3); }
 
 .soft-banner { display: flex; align-items: center; gap: 12px; background: var(--surface-2); }
@@ -502,7 +501,6 @@ img { display: block; }
   border-radius: var(--radius);
   background: var(--surface);
   border: 1px solid var(--line);
-  border-left: 5px solid var(--deck, var(--line));
   text-align: left;
   width: 100%;
 }
@@ -536,7 +534,6 @@ img { display: block; }
   border-radius: var(--radius);
   background: var(--surface);
   border: 1px solid var(--line);
-  border-top: 6px solid var(--deck);
 }
 .deck-hero h1 { font-size: 1.4rem; font-weight: 900; letter-spacing: -.02em; }
 .deck-hero .mastery { width: 100%; margin-top: 6px; }
@@ -893,7 +890,7 @@ button.opt:active:not(:disabled) { transform: translateY(2px); box-shadow: none;
 .rstat-sub { font-size: .72rem; color: var(--text-3); }
 .result-line { display: flex; flex-direction: column; gap: 10px; }
 .missed { display: flex; flex-direction: column; gap: 8px; }
-.missed-item { padding: 14px; border-radius: 16px; background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--berry); display: flex; flex-direction: column; gap: 4px; align-items: flex-start; }
+.missed-item { padding: 14px; border-radius: 16px; background: var(--surface); border: 1px solid var(--line); display: flex; flex-direction: column; gap: 4px; align-items: flex-start; }
 .missed-q { font-weight: 700; }
 .missed-mine { font-size: .88rem; color: var(--bad); }
 .missed-a { font-size: .88rem; color: var(--good); font-weight: 700; }
